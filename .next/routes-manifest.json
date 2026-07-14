@@ -3,8 +3,17 @@
   "pages404": true,
   "appType": "app",
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/testing_react",
   "redirects": [
+    {
+      "source": "/testing_react/",
+      "destination": "/testing_react",
+      "basePath": false,
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^/testing_react/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -17,7 +26,13 @@
   "headers": [],
   "onMatchHeaders": [],
   "rewrites": {
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/testing_react//_next/:path+",
+        "destination": "/testing_react/_next/:path+",
+        "regex": "^/testing_react//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
     "afterFiles": [],
     "fallback": []
   },
