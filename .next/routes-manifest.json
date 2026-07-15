@@ -26,13 +26,7 @@
   "headers": [],
   "onMatchHeaders": [],
   "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/testing_react//_next/:path+",
-        "destination": "/testing_react/_next/:path+",
-        "regex": "^/testing_react//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
+    "beforeFiles": [],
     "afterFiles": [],
     "fallback": []
   },
