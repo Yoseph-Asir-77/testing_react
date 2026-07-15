@@ -42,7 +42,7 @@ self.__SERVER_FILES_MANIFEST={
         256,
         384
       ],
-      "path": "/testing_react/_next/image",
+      "path": "/testing_react/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],

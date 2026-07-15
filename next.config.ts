@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   assetPrefix: "/testing_react/",
   images: {
     unoptimized: true,
+    path: "/testing_react/",
   },
 };
 
