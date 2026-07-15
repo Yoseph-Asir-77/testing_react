@@ -42,9 +42,9 @@ self.__SERVER_FILES_MANIFEST={
         256,
         384
       ],
-      "path": "/testing_react/_next/image",
-      "loader": "default",
-      "loaderFile": "",
+      "path": "/testing_react/_next/image/",
+      "loader": "custom",
+      "loaderFile": "/Users/administrator/Desktop/testing_react/image-loader.ts",
       "domains": [],
       "disableStaticImages": false,
       "minimumCacheTTL": 14400,
@@ -67,7 +67,7 @@ self.__SERVER_FILES_MANIFEST={
       "qualities": [
         75
       ],
-      "unoptimized": true,
+      "unoptimized": false,
       "customCacheHandler": false
     },
     "devIndicators": {

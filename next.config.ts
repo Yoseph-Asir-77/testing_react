@@ -4,8 +4,10 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/testing_react",
   images: {
-    unoptimized: true,
+    loader: "custom",
+    loaderFile: "./image-loader.ts",
   },
 };
+
 
 export default nextConfig;
